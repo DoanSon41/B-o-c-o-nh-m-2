@@ -1,0 +1,5 @@
+go
+select *
+from NHANVIEN
+WHERE NHANVIEN.LUONG > 30000
+go

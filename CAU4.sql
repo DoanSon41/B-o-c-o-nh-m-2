@@ -1,0 +1,5 @@
+﻿go
+select HONV + TENLOT + TENNV as "Họ và tên"
+from NHANVIEN
+WHERE NHANVIEN.DCHI LIKE '%Tp HCM%' or NHANVIEN.DCHI LIKE '%h'
+go
